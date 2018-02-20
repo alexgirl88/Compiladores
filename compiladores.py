@@ -1,4 +1,3 @@
-#Análise Lexica
 import re
 
 alfab = "$()+-._0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
@@ -78,7 +77,7 @@ def geraTokens(arquivo):
 
 def main():
     buildDelta()
-    arq = open("CompiladoresAlexandra/CompiladoresAlexandra.txt", "r")
+    arq = open("/CompiladoresAlexandra.txt", "r")
     arquivo = arq.readlines()
     print(geraTokens(arquivo))
 
